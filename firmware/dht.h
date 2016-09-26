@@ -12,11 +12,8 @@
 #ifndef dht_h
 #define dht_h
 
-#if ARDUINO < 100
-#include <WProgram.h>
-#else
-#include <Arduino.h>
-#endif
+#include <Spark.h>
+
 
 #define DHT_LIB_VERSION "0.1.13"
 
